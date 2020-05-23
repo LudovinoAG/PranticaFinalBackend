@@ -144,7 +144,7 @@ $('#submitButton').click(function(event){
 
 
 
-
+//Funcion para mostrar resultados de la busquedad
 function showResult(array){
     $('.resultados').empty();
     $.each(array, function(index, val){
